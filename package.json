@@ -1,5 +1,5 @@
 {
-  "name": "mongoat",
+  "name": "@deliverysolutions/mongoat",
   "version": "2.1.7",
   "description": "Mongoat is a MongoDb ODM",
   "keywords": [
@@ -39,5 +39,6 @@
   },
   "directories": {
     "lib": "lib"
-  }
+  },
+  "author": ""
 }
