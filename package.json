@@ -1,6 +1,6 @@
 {
   "name": "mongoat",
-  "version": "2.0.7",
+  "version": "2.1.7",
   "description": "Mongoat is a MongoDb ODM",
   "keywords": [
     "mongodb",
@@ -13,20 +13,19 @@
   "main": "index.js",
   "scripts": {
     "pretest": "jshint .",
-    "test": "./node_modules/.bin/jasmine",
-    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/jasmine",
-    "doc": "./node_modules/.bin/jsdoc -d ./docs --readme README.md --package package.json --template node_modules/minami lib/*"
+    "test": "jasmine",
+    "cover": "istanbul cover ./node_modules/.bin/jasmine",
+    "doc": "jsdoc -d ./docs --readme README.md --package package.json --template node_modules/minami lib/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dial-once/node-mongoat.git"
+    "url": "git+https://github.com/ds-arb/node-mongoat.git"
   },
-  "author": "khatal.yacine@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dial-once/node-mongoat/issues"
+    "url": "https://github.com/ds-arb/node-mongoat/issues"
   },
-  "homepage": "https://github.com/dial-once/node-mongoat#readme",
+  "homepage": "https://github.com/ds-arb/node-mongoat#readme",
   "dependencies": {
     "lodash": "^4.0.0",
     "mongodb": "^3.5.7"
@@ -37,5 +36,8 @@
     "jasmine": "^2.4.1",
     "jsdoc": "^3.4.0",
     "minami": "^1.1.1"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
