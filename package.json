@@ -1,5 +1,5 @@
 {
-  "name": "@deliverysolutions/mongoat",
+  "name": "mongoat",
   "version": "2.1.7",
   "description": "Mongoat is a MongoDb ODM",
   "keywords": [
